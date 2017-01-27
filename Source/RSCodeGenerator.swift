@@ -56,7 +56,7 @@ public protocol RSCheckDigitGenerator {
 // Abstract code generator, provides default functions for validations and generations.
 open class RSAbstractCodeGenerator : RSCodeGenerator {
     
-    open var fillColor: UIColor = UIColor.white
+    open var fillColor: UIColor = UIColor.clear
     open var strokeColor: UIColor = UIColor.black
     
     // Check whether the given contents are valid.
